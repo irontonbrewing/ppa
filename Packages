@@ -1,0 +1,16 @@
+Package: tilt-perl
+Version: 1.0
+Architecture: all
+Maintainer: Ironton Brewing <irontonbrewing@gmail.com>
+Depends: bluez-hcidump, perl, perl-tk, libjson-perl, libwww-perl, liblwp-protocol-https-perl, libssl-dev, zlib1g-dev
+Filename: ./tilt-perl.deb
+Size: 648084
+MD5sum: e9cb393c56cf7efec4adc0a1dba957cd
+SHA1: 881163a1574f170bb6718a124a7f0456c6c8a310
+SHA256: 4aaede458e42d76883f5c29915ef122150bfaae7eb297a5638d1a1bfdec0b85d
+Section: x11
+Priority: optional
+Description: Read low energy bluetooth iBeacon data from Tilt hydrometer devices.
+  Data is displayed in a Tk GUI and can be logged to a web end-point.
+  Options provided for calibration and data export as well.
+
